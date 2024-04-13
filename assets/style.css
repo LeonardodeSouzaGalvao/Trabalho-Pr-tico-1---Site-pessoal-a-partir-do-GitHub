@@ -1,0 +1,117 @@
+*{
+    font-size:medium ;
+    font-family:Arial, Helvetica, sans-serif ; 
+}
+ .texto a{
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
+
+.perfil{
+    background-color: rgb(36, 37, 40);
+    border-radius: 10px;
+}
+.perfil img{
+    height: 250px;
+    margin: 0px 5px 0px 0px;
+}
+
+i{
+    padding: 6px;
+transform: scale(1.5);
+}
+.containeri img{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+.icones{
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 0px 2px;
+}
+
+.bg{
+    padding: 0px 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(36, 37, 40);
+}
+.bg:hover{
+    padding: 0px 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(58, 58, 58);
+}
+.minirepositorio{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.repositoaqui{
+
+    width: 30%;
+}
+.repositoaqui:hover{
+    border: 2px solid black;
+    width: 30%;
+}
+.item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item img{
+    border-radius: 10px;
+    border: 10px;
+    width: 100px;
+    height: auto;
+    
+}
+.icones{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pessoa{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    background-color: aliceblue;
+}
+.pessoa p{
+    color: black;
+}
+
+.secao h4 {
+    padding: 3px;
+    border-radius: 10px;
+    color: black;
+    background-color:white;
+    display: inline-block;
+}
+.categorias p{
+    margin: 10px;
+}
+.topo{
+    padding: 3px;
+    border-radius: 10px;
+    color: black;
+    background-color:white;
+    display: inline-block;
+}
+.texto{
+    padding-bottom: 30px;
+}
+.secao p{
+    padding-bottom: 30px;
+}
+.iconestela{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 700px;
+    right: 100px;
+}
