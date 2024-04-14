@@ -20,6 +20,8 @@ i:hover{
     color: darkgray;
 }
 .icones a{
+    display: flex;
+    flex-wrap: wrap;
     text-decoration: none;
     color: white;
 }
@@ -197,7 +199,7 @@ footer h3{
     }
     .perfil img{
         height: 100px;
-        margin: 0px 5px 0px 0px;
+        margin: 0px 0px 0px 0px;
     }
     i:hover{
         color: darkgray;
@@ -212,8 +214,11 @@ footer h3{
     transform: scale(1.5);
     }
     .containeri{
-
+        width: 300px;    
     }
+    .containeri p{
+       width: 90px; 
+    }  
     .containeri img{
         justify-content: center;
         width: 100px;
@@ -247,7 +252,7 @@ footer h3{
     }
     .repositoaqui{
         background-color: white;
-        width: 100%;
+        width: 90%;
     }
     .repositoaqui:hover{
         background-color:rgb(221, 221, 221);
@@ -269,12 +274,20 @@ footer h3{
         flex-wrap: wrap;
     }
     .pessoa{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         border-radius: 10px;
-        margin: 10px;
-        padding: 5px;
+        margin: 6px;
+        padding: 3px;
         background-color: aliceblue;
     }
+    .pessoa img{
+        width: 70%;
+    }
     .pessoa p{
+        display: flex;
+        flex-wrap: wrap;
         color: black;
     }
     
@@ -317,5 +330,8 @@ footer h3{
     }
     .pessoa a{
         text-decoration: none;
+    }
+    .pessoa img{
+        
     }
 }
