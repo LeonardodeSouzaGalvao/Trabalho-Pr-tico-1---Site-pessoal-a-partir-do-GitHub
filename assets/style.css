@@ -28,11 +28,19 @@ i{
     padding: 6px;
 transform: scale(1.5);
 }
+.containeri{
+   display: flex;
+   justify-content: center;
+}
 .containeri img{
     width: 250px;
     height: auto;
     border-radius: 10px;
     
+}
+.repositoaqui a{
+    text-decoration: none;
+    color: black;
 }
 
 .icones{
@@ -64,7 +72,7 @@ transform: scale(1.5);
 }
 .repositoaqui:hover{
     background-color:rgb(221, 221, 221);
-    border: 2px solid black;
+    transform: scale(0.96);
     width: 30%;
 }
 .item{
@@ -126,11 +134,17 @@ transform: scale(1.5);
     right: 100px;
 }
 .pessoa:hover{
-    border: 2px solid black;
+    transform: scale(0.96);
     background-color: darkgrey;
 }
 .pessoa a{
     text-decoration: none;
+}
+footer h3{
+    font-size: medium;
+    color: white;
+    padding: 20px;
+    background-color: rgb(32, 32, 35);
 }
 
 
@@ -169,8 +183,10 @@ transform: scale(1.5);
         font-size:medium ;
         font-family:Arial, Helvetica, sans-serif ; 
     }
+
+    
      .texto a{
-        font-size: larger;
+        font-size: medium;
         text-decoration: none;
         color: black;
     }
@@ -195,7 +211,11 @@ transform: scale(1.5);
         padding: 6px;
     transform: scale(1.5);
     }
+    .containeri{
+
+    }
     .containeri img{
+        justify-content: center;
         width: 100px;
         height: auto;
         border-radius: 10px;
@@ -231,7 +251,6 @@ transform: scale(1.5);
     }
     .repositoaqui:hover{
         background-color:rgb(221, 221, 221);
-        border: 2px solid black;
         width: 30%;
     }
     .item{
