@@ -214,10 +214,11 @@ footer h3{
     transform: scale(1.5);
     }
     .containeri{
-        width: 300px;    
+        padding: 0px 0px 0px 50px;
+        width: 200px;    
     }
     .containeri p{
-       width: 90px; 
+       width: 200px; 
     }  
     .containeri img{
         justify-content: center;
@@ -333,5 +334,8 @@ footer h3{
     }
     .pessoa img{
         
+    }
+    .containeri h4{
+        width: 200px;
     }
 }
