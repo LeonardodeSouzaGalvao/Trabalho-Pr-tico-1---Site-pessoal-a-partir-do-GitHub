@@ -7,6 +7,41 @@
     text-decoration: none;
     color: black;
 }
+.todotexto{
+    padding: 5px;
+}
+.todotexto h4{
+    
+    width: 150px;
+    border-radius: 5px;
+background-color: white;
+color: black;
+}
+.todotexto p{
+    
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.iconest{
+    display: flex;
+    flex-direction: column;
+position: absolute;
+right: 40px;
+top: 350px;
+}
+.topicos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.topicos p{
+    background-color: rgb(76, 100, 121); 
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px 5px;
+}
 
 .perfil{
     background-color: rgb(36, 37, 40);
@@ -178,6 +213,10 @@ footer h3{
         background-color: white;
         width: 100%;
     }
+    .iconest{
+        position:relative;
+        top: 20px;
+        }
 }
 @media only screen and (max-width: 300px){
 
@@ -340,4 +379,48 @@ footer h3{
     .containeri h4{
         width: 200px;
     }
+    .descricao{
+        width: 10%;
+    }
+    .todotexto h4{
+        border-radius: 5px;
+    background-color: white;
+    color: black;
+    }
+    .iconest{
+        display: flex;
+    }
+    .todotexto{
+        padding: 5px;
+    }
+    .todotexto h4{
+        
+        width: 150px;
+        border-radius: 5px;
+    background-color: white;
+    color: black;
+    }
+    .todotexto p{
+        
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .iconest{
+    position:relative;
+    top: 20px;
+    }
+    .topicos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .topicos p{
+        background-color: rgb(76, 100, 121); 
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 0px 5px;
+    }
+    
 }
